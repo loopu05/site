@@ -1,0 +1,22 @@
+.nunito-regular {
+    font-family: 'nunito', sans-serif;
+}
+
+.nunito-semibold {
+    @extend .nunito-regular;
+    font-weight: 600;
+}
+
+.nunito-extrabold {
+    @extend .nunito-regular;
+    font-weight: 800;
+}
+
+.poppins-regular {
+    font-family: 'poppins', sans-serif;
+}
+
+.poppins-medium {
+    @extend .poppins-regular;
+    font-weight: 500;
+}
